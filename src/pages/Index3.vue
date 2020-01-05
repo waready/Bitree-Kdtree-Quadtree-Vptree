@@ -9,7 +9,7 @@
         <pre>{{ info }}</pre>
       </div>
       <div v-else class="text-center">
-        Click/touch and hold for at least 600ms.
+        Click/touch and hold por 3 segundos para capturar su punto.
       </div>
     </q-card>
       {{datos}}
@@ -68,12 +68,12 @@ export default {
     this.$refs['my-canvas'].width = this.$refs['my-canvas'].parentElement.clientWidth
     this.$refs['my-canvas'].height = this.$refs['my-canvas'].parentElement.clientHeight
     
-             class Punto{
-            constructor(xx=0,yy=0){
-                this.x=xx;
-                this.y=yy;
-            }
-        }
+      class Punto{
+    constructor(xx=0,yy=0){
+        this.x=xx;
+        this.y=yy;
+    }
+    }
 		class Nodo {
 			constructor(PP, radio, izq=null,der=null) 
 			{	

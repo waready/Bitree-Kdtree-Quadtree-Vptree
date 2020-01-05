@@ -21,7 +21,7 @@
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Arbol_Navidad_03.gif/220px-Arbol_Navidad_03.gif" style="width: 150px; height: 210px">
           
           <div class="text-h3 text-white text-center">Arboles </div>
-                <q-btn color="green" class="center" label="Iniciar" />
+            <q-btn color="green" class="center" label="Iniciar" to="1" />
         </div>
       </template>
     </q-parallax>

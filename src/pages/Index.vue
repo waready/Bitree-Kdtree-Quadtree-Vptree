@@ -1,6 +1,10 @@
 <template>
 <div>
+       <div class="text-center">
+        basado en su codigo de js de arbol binario no hay escusa!!
+      </div>
    <div class="q-pa-md row justify-center">
+
     <q-card class="my-card bg-purple-5 text-white">
       <q-card-section>
         <div class="text-h6">ARBOL Binario</div>
@@ -14,7 +18,7 @@
       </q-card-section>
 
       <q-card-actions class="justify-center">
-        <q-btn flat @click="arbolgg1('genera')">Generar Arbol</q-btn>
+        <q-btn color="dark"  @click="arbolgg1('genera')">Generar Arbol</q-btn>
       </q-card-actions>
     </q-card>
 

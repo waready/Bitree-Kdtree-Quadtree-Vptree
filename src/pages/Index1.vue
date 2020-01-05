@@ -9,11 +9,11 @@
         <pre>{{ info }}</pre>
       </div>
       <div v-else class="text-center">
-        Click/touch and hold for at least 600ms.
+        Click/touch and hold por 3 segundos para capturar su punto.
       </div>
     </q-card>
       {{datos}}
-      {{treeData}}
+
   </div>
     <div class="q-pa-sm">
       <q-card
@@ -231,7 +231,7 @@ export default {
            A.insertar([point.x,point.y]);
         }
         
-        A.mostrar(canvas2d,300,10,150); 
+        A.mostrar(canvas2d,400,10,150); 
     }
     
   },

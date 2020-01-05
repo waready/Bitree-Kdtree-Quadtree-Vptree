@@ -17,7 +17,7 @@
             Arbolitos!! 
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>By:Antony Japura Paredes</div>
       </q-toolbar>
     </q-header>
 

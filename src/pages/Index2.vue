@@ -9,7 +9,7 @@
         <pre>{{ info }}</pre>
       </div>
       <div v-else class="text-center">
-        Click/touch and hold for at least 600ms.
+        Click/touch and hold por 3 segundos para capturar su punto.
       </div>
     </q-card>
       {{datos}}

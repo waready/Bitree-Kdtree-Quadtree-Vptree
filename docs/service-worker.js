@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.cf7c5fd2e6620ee12838292d8a1defe8.js"
+  "precache-manifest.20a98642ce2de0374ce26d30fb4d89b7.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "arboles"});
